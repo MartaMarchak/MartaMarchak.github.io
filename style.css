@@ -1,0 +1,150 @@
+h2 {
+    color: gainsboro;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+p {
+
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 100;
+    font-size: 48px;
+    color: red;
+}
+
+A {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.home h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 100;
+    font-size: 170px;
+    color: red;
+}
+
+.home h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 100;
+    font-size: 120px;
+    color: red;
+}
+
+.navbar-header a {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+nav .navbar,
+.navbar-default {
+    background-color: red;
+    background-image: none;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+nav .navbar,
+.navbar-default .active {
+    background-color: red;
+}
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    color: gainsboro;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    background-color: crimson;
+    background-image: none;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: none;
+}
+
+.navbar-nav > li > a.profile-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.home {
+    background-color: black;
+}
+
+.gallery,
+.info {
+    background-color: black;
+    margin: 0px;
+    padding: 40px;
+}
+
+.about,
+.illustrations {
+    margin: 0px;
+    padding: 40px;
+    margin-bottom: 60px;
+}
+
+.about {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.info img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.navbar {
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar.is-hidden {
+    opacity: 0;
+}
+
+.navbar.is-visible {
+    opacity: 1;
+}
